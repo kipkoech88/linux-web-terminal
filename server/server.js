@@ -12,6 +12,9 @@ const io = socketIO(server)
 //middlewares 
 app.use(cors())
 
+//authentication
+
+
 
 app.get('/', (req, res)=>{
     res.send('Web based linux terminal')
